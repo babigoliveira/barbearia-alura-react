@@ -1,0 +1,14 @@
+.mapa {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.conteudo-mapa {
+  width: 940px;
+  margin: 0 auto;
+}
