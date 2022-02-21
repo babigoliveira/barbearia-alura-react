@@ -7,13 +7,13 @@ const formatCurrency = (value) => {
   }).format(value);
 };
 
-const ProductCard = ({ title, image, description, price, alt }) => {
+const ProductCard = ({ title, image, description, value, alt }) => {
   return (
     <>
       <h2>{title}</h2>
       <img src={image} alt={alt} />
       <p className="produto-descricao">{description}</p>
-      <p className="produto-preco">{formatCurrency(price)}</p>
+      <p className="produto-preco">{formatCurrency(value)}</p>
     </>
   );
 };
