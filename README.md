@@ -1,6 +1,6 @@
 # Barbearia Alura
 
-![Barbeiro cortando barba de cliente](src\components\Benefits\beneficios.jpg)
+![Cadeira de uma barbearia](./src/components/Banner/banner.jpg)
 
 ---
 
